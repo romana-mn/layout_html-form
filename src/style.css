@@ -4,5 +4,9 @@
 }
 
 .form-group {
-  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-fieldset .form-group:last-of-type {
+  margin-bottom: 0;
 }

@@ -14,8 +14,8 @@
     <form 
       class="form"  
       action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
-      method="post">
-      
+      method="post"
+    >
       <fieldset class="form-fieldset">
         <legend>
           Personal information
@@ -44,9 +44,9 @@
         </div>
         <div class="form-group">
           <label>
-            How old are you?
+            How old are You?
             <input 
-              type="text" 
+              type="number" 
               name="age" 
               pattern="\d+" 
               min="1" max="100" 
@@ -66,7 +66,6 @@
             I accept the term of the agreement
             <input 
               type="checkbox" 
-              checked 
               required
             >
           </label>
@@ -102,7 +101,7 @@
 
       <fieldset class="form-fieldset">
         <legend>
-          An intersting fact about you!
+          An interesting fact about you!
         </legend>
         <div class="form-group">
           <label>
